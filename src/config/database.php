@@ -1,10 +1,10 @@
 <?php
 class Database{
  
-    private $host = "linkedin.cx2nnmpqznns.us-east-1.rds.amazonaws.com:3306";
-    private $db_name = "project";
-    private $username = "linkedin_user";
-    private $password = "linkedin_pass";
+    private $host = "***";
+    private $db_name = "**";
+    private $username = "**";
+    private $password = "**";
     public $conn;
  
     public function getConnection(){
